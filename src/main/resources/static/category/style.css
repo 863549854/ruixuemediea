@@ -1,0 +1,35 @@
+﻿
+/*-------- body --------*/
+
+form,div,body,img,p,a,img,dl,dd,dt,table,tr,td,th,h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;border:0;font-weight:normal;}
+
+
+ul,li{list-style:none;margin:0;padding:0;}
+
+
+
+
+
+
+
+
+
+/*.wrap {width:1100px; margin:0  auto;}*/
+/*.w1000 {width:1000px; margin:0  auto;}*/
+
+.content1 { width:1200px; margin:0 auto;  }
+
+
+
+
+.i-zuosm {margin-bottom:20px;}
+
+.i-zuosm  ul li { width:280px; height:190px; position:relative; margin-right:20px; margin-bottom:20px; float:left;transition: all 0.6s;  }
+.i-zuosm  ul li .i-zsm-pic {position: absolute; top:0; z-index:99;}
+.i-zuosm  ul li .i-zsm-wz {width:280px;position: absolute; top:0; z-index:999;height:190px; line-height:190px; text-align:center; font-size:24px; color:#fff;}
+
+.i-zuosm  ul li:hover {transform: scale(1.1);}
+.i-zuosm  ul li .i-zsm-wz:hover {color:#f66c0c;}
+
+
+

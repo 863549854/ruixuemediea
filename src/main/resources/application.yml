@@ -1,0 +1,67 @@
+server:
+  port: 3389
+#  ssl:
+#    key-store: www.kzysure.com.jks
+#    key-store-password: ttheIpad.3
+#    key-store-type: JKS
+spring:
+#  文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+  #freemarker模版
+  freemarker:
+    allow-request-override: false
+    cache: true
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    request-context-attribute: request
+
+
+
+
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:./rx-sqlite/ruixuemedia.db
+    username: root
+    password: databasepw
+
+  jpa:
+    show-sql: true
+    database-platform: com.ruixuemedia.site.utils.SQLiteDialect
+
+#  七牛云配置
+# bucket是创建的存储空间名
+# path对应存储空间的访问域名
+qiniu:
+#  accessKey: PpvCG-IijIU-sGDtkg1Dx7m7AuO4q0oCLmzm19Ly
+#  secretKey: gBqzi4LWxXtQl6JuJIDeK5P6bVgF0fNl6JBWbLmu
+#  bucket: ruixueyinghua
+#  path: http://media.ruixuemedia.com
+#  staticUrl: http://static.ruixuemedia.com/static/
+  accessKey: 3KlpNkjunGj58-2R66R_N1leZpQeXsQiXDQibjGe
+  secretKey: Bz9cW3FPtjzuu4pZbtVKiPBTVP8xx2dcmwDpyem8
+  bucket: rxyhhn
+  path: http://q2a6ftrvn.bkt.clouddn.com
+  staticUrl: http://static.ruixuemedia.com/static/
+
+rxmedia:
+  monthlyCountTxt: /var/month/month.txt
+aliyun:
+  sms:
+    accessKeyId: LTAIKAmvURrLHoTh
+    accessKeySecret: 95qkDMLPFe8BF1KBODeaZvXNhEWgsb
+    product: Dysmsapi
+    domain: dysmsapi.aliyuncs.com
+    regionId: cn-hangzhou
+    signName: 瑞雪映画
+    dateFormat: yyyyMMdd
+    endpointName: cn-hangzhou
+jisuapi:
+  sms:
+    url: http://api.jisuapi.com/sms/send?
