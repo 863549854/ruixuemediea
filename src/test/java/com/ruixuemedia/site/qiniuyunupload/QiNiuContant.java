@@ -1,4 +1,4 @@
-package com.ruixuemedia.site.upload;
+package com.ruixuemedia.site.qiniuyunupload;
 
 public class QiNiuContant {
     //每个七牛云仓库对应两对密钥

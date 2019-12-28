@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="ruixuemedia.db" uuid="15ca8b2d-eb47-432d-8637-04471838063b">
-      <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" dbms="SQLITE" exact-version="3.25.1" exact-driver-version="3.25">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <auth-required>false</auth-required>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="ruixuemedia1" uuid="7c3588e7-a36c-4ad0-9c2c-5a30353e1b79">
-      <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" dbms="SQLITE" exact-version="3.25.1" exact-driver-version="3.25">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <auth-required>false</auth-required>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="ruixuemedia2" uuid="59c4342a-12aa-4fa0-9569-df7ff3c59977">
+    <data-source name="ruixuemedia" uuid="a3e446fb-ad71-453a-b5ca-c8e349844ec5">
       <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" dbms="SQLITE" exact-version="3.25.1" exact-driver-version="3.25">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

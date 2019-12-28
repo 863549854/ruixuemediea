@@ -1,6 +1,5 @@
-package com.ruixuemedia.site.upload;
+package com.ruixuemedia.site.qiniuyunupload;
 
-import com.ruixuemedia.site.upload.QiNiuContant;
 import com.google.gson.Gson;
 import com.qiniu.common.QiniuException;
 import com.qiniu.common.Zone;
@@ -9,8 +8,6 @@ import com.qiniu.storage.Configuration;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
-
-import java.io.File;
 
 public class QiNiuUtil {
 
